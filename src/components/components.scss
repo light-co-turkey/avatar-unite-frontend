@@ -1,0 +1,54 @@
+//AvatarList
+.avatar-list {
+    
+}
+
+.avatar-list ul {
+    margin: 0;
+    padding: .5rem .25rem !important;
+}
+
+.avatar-list li {
+    display: flex; flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 1px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+.avatar-list li:last-child {
+    margin-bottom: 0 !important;
+}
+
+.avatar-list li img {
+    margin: .3rem;
+    min-width: 3rem;
+    width: 5vw;
+    border-radius: 1rem;
+}
+
+.avatar-list ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.avatar-list ul li span {
+    display: flex; flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: .5rem 1rem;
+    margin: .25rem;
+    border: solid 1px;
+    border-radius: 1rem;
+}
+
+.avatar-list ul li span p:first-of-type {
+    padding-right: .5rem;
+    border-right: solid 1px !important;
+}
+
+.avatar-list ul li span p:last-of-type {
+    padding-left: .5rem;
+}
